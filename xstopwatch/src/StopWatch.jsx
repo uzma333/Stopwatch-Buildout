@@ -57,8 +57,8 @@ const handleReset=()=>{
     return(
         <div>
             <h2>Stopwatch</h2>
-            <p>time: {min}:{sec <10? "0"+sec:sec}</p>
-            <button onClick={handleStartStop}>{running ? "stop" : "start"}</button>
+            <p>Time: {min}:{sec <10? "0"+sec:sec}</p>
+            <button onClick={handleStartStop}>{running ? "Stop" : "Start"}</button>
             <button onClick={handleReset}>Reset</button>
         </div>
     )
